@@ -1,0 +1,177 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+# About me section
+
+
+- intent: about_you
+  examples: |
+    - tell me about yourself
+    - who are you
+    - what do you do
+
+# Work experience section
+- intent: expertise
+  examples: |
+    - what is your expertise
+    - what are you skilled in
+    - what kind of experience do you have
+
+- intent: chatbot_development_experience
+  examples: |
+    - experience with chatbots
+    - have you built chatbots before
+    - what chatbots have you worked on
+
+- intent: specific_chatbot_platforms
+  examples: |
+    - familiar with Rasa?
+    - do you know Dialogflow?
+    - experience with Azure Bot Service?
+
+- intent: project_description_capgemini
+  examples: |
+    - tell me about your work at Capgemini
+    - what did you do at Capgemini
+    - Capgemini project details
+
+- intent: project_description_compucom
+  examples: |
+    - tell me about your work at Compucom
+    - what did you do at Compucom
+    - Compucom project details
+
+- intent: project_description_cxo
+  examples: |
+    - tell me about your work at CXO
+    - what did you do at CXO
+    - CXO project details
+
+# Education section
+- intent: education_details
+  examples: |
+    - what is your educational background
+    - what degrees do you have
+    - tell me about your education
+
+# Technical knowledge section
+#- intent: programming_languages
+#  examples: |
+#    - what programming languages do you know
+#    - what coding skills do you have
+#    - familiar with Python?
+
+- intent: chatbot_platforms_used
+  examples: |
+    - which chatbot platforms have you used
+    - what chatbots have you built
+    - experience with specific chatbot frameworks
+
+- intent: web_development_skills
+  examples: |
+    - web development skills
+    - knowledge of HTML and Javascript
+    - experience with web development
+
+# Awards & Recognitions
+- intent: awards_and_recognition
+  examples: |
+    - what awards have you received
+    - any recognitions in your career
+    - tell me about your achievements
+
+# Others
+- intent: anything_else
+  examples: |
+    - anything else I can help you with?
+    - what else can you do
+    - do you have any other skills

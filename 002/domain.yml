@@ -1,0 +1,75 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - about_me
+  - chatbot_development_experience
+  - about_you
+  - expertise
+  - specific_chatbot_platforms
+  - project_description_capgemini
+  - project_description_compucom
+  - project_description_cxo
+  - education_details
+  - chatbot_platforms_used
+  - awards_and_recognition
+  - anything_else
+  - programming_languages
+
+responses:
+  utter_greet:
+  - text: "Hey! How are you?"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+  
+  utter_about_me:
+  - text: "I'm Surajkumar Mishra, a Conversational AI (Chatbot) Consultant with over 6 years of experience."
+
+  
+  utter_expertise:
+  - text: "I have expertise in developing and maintaining chatbots using various platforms like Azure, Rasa, Dialogflow, etc."
+  
+  utter_chatbot_development_experience:
+  - text: "Yes, I have built chatbots using various platforms like Azure Bot Service, Rasa, Dialogflow, and low-code/no-code platforms."
+  
+  utter_specific_chatbot_platforms:
+  - text: "Yes, I am familiar with Rasa. I also have experience with Dialogflow and Azure Bot Service."
+  
+  
+  utter_project_description_capgemini:
+  - text: "At Capgemini, I was part of the team responsible for enhancing their internal chatbot used by over 350,000 employees globally. I collaborated on integrating advanced AI capabilities and improving natural language processing for the chatbot."
+  
+  
+  utter_education_details:
+  - text: "I am pursuing a Master's degree in Data Science & AI from Symbiosis International University and hold a Bachelor's degree in Computer Science from Pune University."
+  
+  
+  utter_programming_languages:
+  - text: "I am proficient in Python for chatbot development."
+  
+  utter_chatbot_platforms_used:
+  - text: "I have experience working with various chatbot"
+  
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

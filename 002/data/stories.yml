@@ -1,0 +1,64 @@
+stories:
+ # Greet the user
+ - story: greet_user
+   steps:
+   - intent: greet
+   - action: utter_greet
+
+ # Tell the user about yourself
+ - story: tell_about_yourself
+   steps:
+   - intent: about_you
+   - action: utter_about_me
+
+ # Inform the user about your expertise
+ - story: inform_expertise
+   steps:
+   - intent: expertise
+   - action: utter_expertise
+
+ # Tell the user about your chatbot development experience
+ - story: chatbot_development_experience
+   steps:
+   - intent: chatbot_development_experience
+   - action: utter_chatbot_development_experience
+
+ # Inform the user about your familiarity with specific chatbot platforms
+ - story: specific_chatbot_platforms
+   steps:
+   - intent: specific_chatbot_platforms
+   - action: utter_specific_chatbot_platforms
+
+ # Provide details about the Capgemini project
+ - story: capgemini_project_details
+   steps:
+   - intent: project_description_capgemini
+   - action: utter_project_description_capgemini
+
+ # (Define similar stories for other project descriptions)
+
+ # Inform the user about your educational background
+ - story: education_background
+   steps:
+   - intent: education_details
+   - action: utter_education_details
+
+ # Tell the user about your programming languages
+ - story: programming_skills
+   steps:
+   - intent: programming_languages
+   - action: utter_programming_languages
+
+ # Inform the user about your chatbot platforms experience
+ - story: chatbot_platforms_used
+   steps:
+   - intent: chatbot_platforms_used
+   - action: utter_chatbot_platforms_used
+
+ # Inform the user about your awards and recognitions
+ - story: awards_and_recognition
+   steps:
+   - intent: awards_and_recognition
+   # (add action to inform about awards)
+
+ 
