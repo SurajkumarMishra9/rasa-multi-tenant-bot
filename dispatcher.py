@@ -11,7 +11,6 @@ def handle_request(variable_name):
     if variable_name=="suraj":
         target_url = f"http://localhost:5006/webhooks/rest/webhook"
 
-         # Forward request with the original body (handle potential errors)
         try:
             response = requests.post(target_url, json=request_data)
             response.raise_for_status()  # Raise an exception for non-2xx response codes
@@ -26,17 +25,10 @@ def handle_request(variable_name):
 
     elif variable_name=="binary":
                 
-        # Access request body (assuming the data is sent as JSON)
-        #request_data = request.get_json()
 
-        # Validate request data (optional - add data validation logic here)
-        # ...
 
-        # Replace with the actual URL of the other API (including any required parameters)
-        #target_url = f"https://example.com/api/{extracted_value}"
         target_url = f"http://localhost:5005/webhooks/rest/webhook"
 
-         # Forward request with the original body (handle potential errors)
         try:
             response = requests.post(target_url, json=request_data)
             response.raise_for_status()  # Raise an exception for non-2xx response codes
